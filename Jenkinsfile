@@ -7,5 +7,12 @@ pipeline {
               	    echo "repo cloned successfully"  
               	    }  
          	    } 
+				
+				stage("git buld") {  
+           	    steps {  
+              	    echo "cloning repository" 
+              	    echo "repo cloned successfully"  
+              	    }  
+         	    } 
         }
 }
